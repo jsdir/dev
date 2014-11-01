@@ -1,0 +1,11 @@
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+BackgroundDarkness=0.8
+ColorCursor=#d3d0c8
+ColorForeground=#fdeefdeefdee
+ColorBackground=#0ccd0ccd0ccd
+ColorPalette=#2c2c3e3e5050;#e7e74c4c3c3c;#2e2ecccc7171;#f1f1c4c40f0f;#34349898dbdb;#bda27a4fd92d;#1a1abcbc9c9c;#e0e0e0e0e0e0;#9595a5a5a6a6;#e6e67e7e2222;#5701d5358617;#7f7f8c8c8d8d;#695fa558cd55;#f5f5f5f5f5f5;#dfea67b15c75;#ececf0f0f1f1
+
+
+gconftool-2 -s -t string /apps/guake/style/background/color {color}
+gconftool-2 -s -t string /apps/guake/style/font/color {color}
+gconftool-2 -s -t string /apps/guake/style/font/palette "#2c2c3e3e5050:#e7e74c4c3c3c:#2e2ecccc7171:#f1f1c4c40f0f:#34349898dbdb:#bda27a4fd92d:#1a1abcbc9c9c:#e0e0e0e0e0e0:#9595a5a5a6a6:#e6e67e7e2222:#5701d5358617:#7f7f8c8c8d8d:#695fa558cd55:#f5f5f5f5f5f5:#dfea67b15c75:#ececf0f0f1f1"
